@@ -27,24 +27,18 @@ public class E4_17 {
 
         if(iHours1 <= iHours2) {                                //Checks if hours of time 1 is not larger than time 2
             iDiffHours = iHours2 - iHours1;                     //If True: simply subtract hours of time 2 by hours of time 1
-            if(iMinutes1 <= iMinutes2) {                            //Checks if minutes of time 1 is not larger than time 2
-                iDiffMinutes = iMinutes2 - iMinutes1;               //If true : simply subtract minutes of time 2 by minutes of time 1
-            }
-            else {                                                  //If false :
-                iDiffHours -= 1;                                    //Decrements the difference in hours to "borrow" for the minutes
-                iDiffMinutes = (60 - iMinutes1) + iMinutes2;        //Gets the remaining minutes to get to next hour and adds the second number
-                                                                    //to get the difference in minutes
-            }
         }
         else {                                                  //If False:
-            iDiffHours = (24 - iHours1) + iHours2;          
-            if(iMinutes1 <= iMinutes2) {
-                iDiffMinutes = iMinutes2 - iMinutes1;
-            }
-            else {
-                iDiffHours -= 1;
-                iDiffMinutes = (60 - iMinutes1) + iMinutes2;
-            }
+            iDiffHours = (24 - iHours1) + iHours2;              //Gets the remaining hours to get to next day and adds the second number
+        }
+
+        if(iMinutes1 <= iMinutes2) {                            //Checks if minutes of time 1 is not larger than time 2
+            iDiffMinutes = iMinutes2 - iMinutes1;               //If true : simply subtract minutes of time 2 by minutes of time 1
+        }
+        else {                                                  //If false :
+            iDiffHours -= 1;                                    //Decrements the difference in hours to "borrow" for the minutes
+            iDiffMinutes = (60 - iMinutes1) + iMinutes2;        //Gets the remaining minutes to get to next hour and adds the second number
+                                                                //to get the difference in minutes
         }
 
         System.out.println("The number of hours and minutes between the two times is: " + iDiffHours + " hours " + iDiffMinutes + " minutes");
