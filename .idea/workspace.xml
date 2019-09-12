@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d7074ff-9b87-4d27-9502-62f9d29c8fc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/E5_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/E5_19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/E4_17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/E4_17.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/E4_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E4_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E5_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E5_19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/sjsu/macaldo/aaronjay/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/macaldo/aaronjay/Card.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E5_19">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="E5_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E5_19" />
       <module name="ProgrammingAssignment2" />
@@ -63,8 +61,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E5_19" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.E5_19" />
       </list>
     </recent_temporary>
   </component>
