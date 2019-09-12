@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;       //Imports the Scanner card
 
 public class E4_17 {
 
