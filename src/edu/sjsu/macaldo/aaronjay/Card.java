@@ -6,6 +6,8 @@ public class Card {
         strUsersCard = strClassInput.toUpperCase();           //Sets the private string variable to hold the card the user inputted
     }
 
+    private String strUsersCard;                //Stores the card the user inputted
+
     public String getDescription() {
         String strReturnString = "";            //Stores the string that may be returned to main
         String strErrorInput = "Unknown";       //This will be returned if user inputted an invalid string
@@ -102,6 +104,4 @@ public class Card {
 
         return strReturnString;                                         //Returns the Description of the card user inputted correctly
     }
-
-    private String strUsersCard;        //Stores the card the user inputted
 }
