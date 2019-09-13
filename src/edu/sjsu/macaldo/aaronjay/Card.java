@@ -9,7 +9,7 @@ public class Card {
     private String strUsersCard;                //Stores the card the user inputted
 
     public String getDescription() {
-        String strReturnString = "";            //Stores the string that may be returned to main
+        String strReturnString;                 //Stores the string that may be returned to main
         String strErrorInput = "Unknown";       //This will be returned if user inputted an invalid string
 
         if(strUsersCard.length() < 2 || strUsersCard.length() > 3) {       //Checks to see if the string is the appropriate length
@@ -23,83 +23,64 @@ public class Card {
         }
 
         switch (strUsersCard.charAt(0)) {           //Uses the first character as the expression to be checked then adds to the return string the appropriate string(ex. "Ace of" if char is 'A')
-            case ('A'): {                           //
+            case ('A'):                             //
                 strReturnString = "Ace of ";        //
                 break;                              //
-            }                                       //
-            case ('2'): {                           //
+            case ('2'):                             //
                 strReturnString = "Two of ";        //
                 break;                              //
-            }                                       //
-            case ('3'): {                           //
+            case ('3'):                             //
                 strReturnString = "Three of ";      //
                 break;                              //
-            }                                       //
-            case ('4'): {                           //
+            case ('4'):                             //
                 strReturnString = "Four of ";       //
                 break;                              //
-            }                                       //
-            case ('5'): {                           //
+            case ('5'):                             //
                 strReturnString = "Five of ";       //
                 break;                              //
-            }                                       //
-            case ('6'): {                           //
+            case ('6'):                             //
                 strReturnString = "Six of ";        //
                 break;                              //
-            }                                       //
-            case ('7'): {                           //
+            case ('7'):                             //
                 strReturnString = "Seven of ";      //
                 break;                              //
-            }                                       //
-            case ('8'): {                           //
+            case ('8'):                             //
                 strReturnString = "Eight of ";      //
                 break;                              //
-            }                                       //
-            case ('9'): {                           //
+            case ('9'):                             //
                 strReturnString = "Nine of ";       //
                 break;                              //
-            }                                       //
-            case ('1'): {                                    //This is in the case that the 10 card was inputted and the 2nd character must be 0 if it passed the previous if statement
+            case ('1'):                                      //This is in the case that the 10 card was inputted and the 2nd character must be 0 if it passed the previous if statement
                 strReturnString = "Ten of ";                 //
                 break;                                       //
-            }                                                //
-            case ('J'): {                           //
+            case ('J'):                             //
                 strReturnString = "Jack of ";       //
                 break;                              //
-            }                                       //
-            case ('Q'): {                           //
+            case ('Q'):                             //
                 strReturnString = "Queen of ";      //
                 break;                              //
-            }                                       //
-            case ('K'): {                           //
+            case ('K'):                             //
                 strReturnString = "King of ";       //
                 break;                              //
-            }                                       //
-            default: {                              //If the first character was none of the above it must be invalid. Therefore unknown is returned to output
+            default:                                //If the first character was none of the above it must be invalid. Therefore unknown is returned to output
                 return strErrorInput;               //
-            }
         }
 
         switch (strUsersCard.charAt(strUsersCard.length()-1)) {         //Uses the last character as the expression to be checked then concatenates to the return string the appropriate string(ex. "Diamond" if char is 'D')
-            case ('D'): {                                               //
-                strReturnString = strReturnString.concat("Diamonds");   //
+            case ('D'):                                                 //
+                strReturnString += "Diamonds";                          //
                 break;                                                  //
-            }                                                           //
-            case ('H'): {                                               //
-                strReturnString = strReturnString.concat("Hearts");     //
+            case ('H'):                                                 //
+                strReturnString += "Hearts";                            //
                 break;                                                  //
-            }                                                           //
-            case ('S'): {                                               //
-                strReturnString = strReturnString.concat("Spades");     //
+            case ('S'):                                                 //
+                strReturnString += "Spades";                            //
                 break;                                                  //
-            }                                                           //
-            case ('C'): {                                               //
-                strReturnString = strReturnString.concat("Clubs");      //
+            case ('C'):                                                 //
+                strReturnString += "Clubs";                             //
                 break;                                                  //
-            }                                                           //
-            default: {                                                  //If the last character was none of the above it must be invalid. Therefore unknown is returned to output
+            default:                                                    //If the last character was none of the above it must be invalid. Therefore unknown is returned to output
                 return strErrorInput;                                   //
-            }                                                           //
         }                                                               //
 
         return strReturnString;                                         //Returns the Description of the card user inputted correctly

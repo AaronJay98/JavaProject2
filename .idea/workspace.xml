@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2d7074ff-9b87-4d27-9502-62f9d29c8fc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/E5_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/E5_19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/edu/sjsu/macaldo/aaronjay/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgrammingAssignment2/edu/sjsu/macaldo/aaronjay/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E5_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E5_19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/sjsu/macaldo/aaronjay/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/sjsu/macaldo/aaronjay/Card.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -40,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.E5_19">
     <configuration name="E5_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E5_19" />
       <module name="ProgrammingAssignment2" />
@@ -60,8 +64,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.E5_19" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +79,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568146287662</updated>
-      <workItem from="1568146291160" duration="9416000" />
+      <workItem from="1568146291160" duration="9468000" />
+      <workItem from="1568316005779" duration="151000" />
+      <workItem from="1568316181825" duration="49000" />
+      <workItem from="1568316254904" duration="2656000" />
     </task>
     <servers />
   </component>
@@ -87,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

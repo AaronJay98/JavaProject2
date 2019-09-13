@@ -5,7 +5,8 @@ public class E5_19 {
     public static void main(String[] args) {
         Scanner sUserInput = new Scanner(System.in);    //A means to get the user input
 
-        System.out.println("Welcome to my program that asks for you to input 2 character describing a playing card. \n"); //Welcome statement to tell user what program is about
+        System.out.println("\nWelcome to my program that asks for you to input 2 characters (or 3 if choosing the 10 card) referring to a playing card."); //Welcome statement to tell user what program is about
+        System.out.println("Then the description of the card you referred to will be outputted. \n");                                                       //
         System.out.println("Please refer to the following shorthand notation: \n" +     //Shows the notation that user would input
                            "A      Ace\n" +                                             //
                            "2...10 Card values\n" +                                     //
